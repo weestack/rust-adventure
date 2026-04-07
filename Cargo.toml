@@ -9,12 +9,21 @@ mach2 = "0.6.0"
 libc = "0.2.183"
 
 [[bin]]
-name = "hackerrank"
-path = "src/hackerrank/hackerrank.rs"
+name = "hacker_earth"
+path = "src/challenges/hacker_earth/hacker_earth.rs"
+
+[[bin]]
+name = "hacker_rank"
+path = "src/challenges/hackerrank/program.rs"
 
 [[bin]]
 name = "coding_game"
-path = "src/coding_game/program.rs"
+path = "src/challenges/coding_game/program.rs"
+
+[[bin]]
+name = "competitive_programming"
+path = "src/challenges/competitive_programming/program.rs"
+
 
 [[bin]]
 name = "reverse_shell"

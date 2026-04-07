@@ -1,10 +1,5 @@
 use std::{collections::HashMap, io};
-
-macro_rules! parse_input {
-    ($x:expr, $t:ident) => {
-        $x.trim().parse::<$t>().unwrap()
-    };
-}
+use fun_stuff::parse_input;
 
 #[derive(Debug, Clone)]
 struct Map {
