@@ -1,8 +1,7 @@
 
 mod data_structures;
-mod phonenumbers;
-mod rat_in_a_maze;
-mod n_queen;
+mod combinations;
+mod knapsack;
 
 fn main() {
     //reverse_array::run()
@@ -21,5 +20,5 @@ fn main() {
         ]
     )*/
 
-    let v = n_queen::run(4);
+    data_structures::trees::tree::run();
 }
